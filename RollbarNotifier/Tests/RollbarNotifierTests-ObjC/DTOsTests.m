@@ -213,8 +213,8 @@
     XCTAssertTrue([dto.name isEqualToString:@"MN1"],
                   @"Proper name"
                   );
-    dto.version = @"v3.3.1";
-    XCTAssertTrue([dto.version isEqualToString:@"v3.3.1"],
+    dto.version = @"v3.3.2";
+    XCTAssertTrue([dto.version isEqualToString:@"v3.3.2"],
                   @"Proper version"
                   );
 
